@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="2026世界杯预测分析，基于盘口赔率数据提供赛前预测建议">
+  <meta name="theme-color" content="#2e7d32">
+  <title>⚽ 2026世界杯预测</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
+</head>
+<body>
+
+  <!-- 头部 -->
+  <header class="app-header">
+    <h1><span class="icon">⚽</span>2026世界杯预测</h1>
+    <div class="subtitle">基于盘口数据的赛前分析</div>
+    <div class="update-time" id="updateTime">加载中...</div>
+  </header>
+
+  <!-- 标签切换 -->
+  <nav class="tab-bar">
+    <button class="active" data-tab="upcoming">📅 即将进行</button>
+    <button data-tab="finished">✅ 已完成</button>
+    <button data-tab="all">📋 全部</button>
+  </nav>
+
+  <!-- 比赛列表 -->
+  <div class="match-list" id="matchList">
+    <div class="loading">
+      <div class="spinner"></div>
+      <p>加载数据中...</p>
+    </div>
+  </div>
+
+  <!-- 底部 -->
+  <div class="data-source">
+    数据来源：<a href="https://zq.titan007.com/cn/CupMatch/75.html" target="_blank">球探体育</a>
+    &nbsp;|&nbsp; 仅供参考，不构成投注建议
+  </div>
+
+  <script src="js/predict.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
