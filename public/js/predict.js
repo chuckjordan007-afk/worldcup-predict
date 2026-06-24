@@ -408,18 +408,19 @@ const PredictEngine = {
   },
 
   _fmtHcap(val) {
+    if (val === null || val === undefined || isNaN(val)) return '-';
     if (val === 0) return '平手';
-    const sign = val > 0 ? '' : '';
     const abs = Math.abs(val);
-    if (abs === 0.25) return `${sign}平/半`;
-    if (abs === 0.5) return `${sign}半球`;
-    if (abs === 0.75) return `${sign}半/一`;
-    if (abs === 1.0) return `${sign}一球`;
-    if (abs === 1.25) return `${sign}一/球半`;
-    if (abs === 1.5) return `${sign}球半`;
-    if (abs === 1.75) return `${sign}球半/两`;
-    if (abs === 2.0) return `${sign}两球`;
-    return `${sign}${abs}`;
+    const prefix = val > 0 ? '' : '客让';
+    if (abs === 0.25) return `${prefix}平/半`;
+    if (abs === 0.5) return `${prefix}半球`;
+    if (abs === 0.75) return `${prefix}半/一`;
+    if (abs === 1.0) return `${prefix}一球`;
+    if (abs === 1.25) return `${prefix}一/球半`;
+    if (abs === 1.5) return `${prefix}球半`;
+    if (abs === 1.75) return `${prefix}球半/两`;
+    if (abs === 2.0) return `${prefix}两球`;
+    return `${prefix}${abs}`;
   },
 
   _parseFraction(val) {

@@ -183,16 +183,30 @@ const App = {
     // 构建详情HTML
     const detailHtml = this._buildDetail(match, pred);
     
-    // 替换整个页面内容
-    document.body.innerHTML = detailHtml;
+    // 保存当前页面HTML，用于返回
+    this._savedPageHTML = document.getElementById('app').innerHTML;
+    this._savedScrollY = window.scrollY;
+    
+    // 只替换app内容区域，保留body结构
+    document.getElementById('app').innerHTML = detailHtml;
     
     // 绑定返回按钮
     document.getElementById('backBtn').addEventListener('click', () => {
-      this.init(); // 重新初始化列表
+      this._goBackToList();
     });
 
     // 滚动到顶部
     window.scrollTo(0, 0);
+  },
+
+  _goBackToList() {
+    // 恢复页面结构
+    document.getElementById('app').innerHTML = this._savedPageHTML;
+    // 重新绑定事件
+    this.bindEvents();
+    this.renderMatches();
+    // 恢复滚动位置
+    window.scrollTo(0, this._savedScrollY || 0);
   },
 
   _buildDetail(match, pred) {
@@ -418,6 +432,8 @@ const App = {
       '哥斯达黎加': '🇨🇷', '哥伦比亚': '🇨🇴', '智利': '🇨🇱', '秘鲁': '🇵🇪',
       '厄瓜多尔': '🇪🇨', '巴拉圭': '🇵🇾', '委内瑞拉': '🇻🇪', '巴拿马': '🇵🇦',
       '洪都拉斯': '🇭🇳', '牙买加': '🇯🇲', '新西兰': '🇳🇿',
+      '波黑': '🇧🇦', '佛得角': '🇨🇻', '刚果民主共和国': '🇨🇩',
+      '乌兹别克斯坦': '🇺🇿', '约旦': '🇯🇴', '海地': '🇭🇹', '库拉索': '🇨🇼',
     };
     return map[name] || '⚽';
   },
@@ -425,17 +441,17 @@ const App = {
   _fmtHcap(val) {
     if (val === null || val === undefined || isNaN(val)) return '-';
     if (val === 0) return '平手';
-    const sign = val > 0 ? '' : '';
     const abs = Math.abs(val);
-    if (abs === 0.25) return `${sign}平/半`;
-    if (abs === 0.5) return `${sign}半球`;
-    if (abs === 0.75) return `${sign}半/一`;
-    if (abs === 1.0) return `${sign}一球`;
-    if (abs === 1.25) return `${sign}一/球半`;
-    if (abs === 1.5) return `${sign}球半`;
-    if (abs === 1.75) return `${sign}球半/两`;
-    if (abs === 2.0) return `${sign}两球`;
-    return `${sign}${abs}`;
+    const prefix = val > 0 ? '' : '客让';
+    if (abs === 0.25) return `${prefix}平/半`;
+    if (abs === 0.5) return `${prefix}半球`;
+    if (abs === 0.75) return `${prefix}半/一`;
+    if (abs === 1.0) return `${prefix}一球`;
+    if (abs === 1.25) return `${prefix}一/球半`;
+    if (abs === 1.5) return `${prefix}球半`;
+    if (abs === 1.75) return `${prefix}球半/两`;
+    if (abs === 2.0) return `${prefix}两球`;
+    return `${prefix}${abs}`;
   },
 
   _dayOfWeek(dateStr) {

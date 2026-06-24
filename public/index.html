@@ -18,18 +18,20 @@
     <div class="update-time" id="updateTime">加载中...</div>
   </header>
 
-  <!-- 标签切换 -->
-  <nav class="tab-bar">
-    <button class="active" data-tab="upcoming">📅 即将进行</button>
-    <button data-tab="finished">✅ 已完成</button>
-    <button data-tab="all">📋 全部</button>
-  </nav>
+  <div id="app">
+    <!-- 标签切换 -->
+    <nav class="tab-bar">
+      <button class="active" data-tab="upcoming">📅 即将进行</button>
+      <button data-tab="finished">✅ 已完成</button>
+      <button data-tab="all">📋 全部</button>
+    </nav>
 
-  <!-- 比赛列表 -->
-  <div class="match-list" id="matchList">
-    <div class="loading">
-      <div class="spinner"></div>
-      <p>加载数据中...</p>
+    <!-- 比赛列表 -->
+    <div class="match-list" id="matchList">
+      <div class="loading">
+        <div class="spinner"></div>
+        <p>加载数据中...</p>
+      </div>
     </div>
   </div>
 
