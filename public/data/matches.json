@@ -2,7 +2,7 @@
   "cupId": 75,
   "cupName": "2026世界杯",
   "cupNameEN": "FIFA World Cup 2026",
-  "updateTime": "2026-06-25 10:36:18",
+  "updateTime": "2026-06-25 14:09:47",
   "teamCount": 103,
   "matchCount": 104,
   "teams": {
@@ -7329,6 +7329,13 @@
             "awayWater": 0.89
           },
           {
+            "companyId": 3,
+            "companyName": "Crown",
+            "homeWater": 0.85,
+            "handicap": -0.75,
+            "awayWater": 0.97
+          },
+          {
             "companyId": 8,
             "companyName": "36",
             "homeWater": 0.98,
@@ -7406,6 +7413,13 @@
             "overWater": 0.86,
             "total": 2.25,
             "underWater": 0.94
+          },
+          {
+            "companyId": 3,
+            "companyName": "Crown",
+            "overWater": 0.92,
+            "total": 2.25,
+            "underWater": 0.88
           },
           {
             "companyId": 4,
@@ -7618,6 +7632,13 @@
             "win": 4.65,
             "draw": 3.6,
             "lose": 1.7
+          },
+          {
+            "companyId": 545,
+            "companyName": "Crow*",
+            "win": 4.5,
+            "draw": 3.55,
+            "lose": 1.73
           },
           {
             "companyId": 649,
