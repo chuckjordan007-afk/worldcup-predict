@@ -119,10 +119,7 @@ def parse_matches(js_text, teams):
                 "awayFlag": teams.get(away_id, {}).get("flag", "") if away_id else "",
                 "score": parts[6] if parts[6] else None,
                 "halfScore": parts[7] if parts[7] else None,
-                "initHandicap": safe_float(parts[10]),
-                "liveHandicap": safe_float(parts[11]),
-                "initOverUnder": safe_float_str(parts[12]),
-                "liveOverUnder": safe_float_str(parts[13]),
+                "displayHandicap": safe_float(parts[10]),
             }
             
             all_matches.append(match)
@@ -252,7 +249,7 @@ def main():
     if upcoming:
         print("\n=== Upcoming matches ===")
         for m in upcoming[:15]:
-            print(f"  {m['datetime']} | {m['homeName']} vs {m['awayName']} | 亚盘:{m['initHandicap']}/{m['liveHandicap']} | 大小:{m['initOverUnder']}/{m['liveOverUnder']}")
+            print(f"  {m['datetime']} | {m['homeName']} vs {m['awayName']} | 盘口:{m.get('displayHandicap','-')}")
 
 if __name__ == "__main__":
     main()

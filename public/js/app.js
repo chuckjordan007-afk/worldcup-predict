@@ -162,12 +162,12 @@ const App = {
         ${hcapTag}${ouTag}${euroTag}${scoreTag}
       </div>
       <div class="card-footer">
-        <span class="odds-summary">盘口:${this._fmtHcap(pred.handicap.liveHandicap)} | 大小:${pred.overUnder.liveOverUnder || match.liveOverUnder || '-'}球</span>
+        <span class="odds-summary">盘口:${this._fmtHcap(pred.handicap.handicap)} | 大小:${pred.overUnder.total || '-'}球</span>
         <span class="arrow">›</span>
       </div>
       ` : `
       <div class="card-footer">
-        <span class="odds-summary">半场 ${match.halfScore || '-'} | 盘口:${this._fmtHcap(parseFloat(match.liveHandicap))}</span>
+        <span class="odds-summary">半场 ${match.halfScore || '-'} | 全场 ${match.score || '-'}</span>
         <span class="arrow">›</span>
       </div>
       `}
@@ -309,40 +309,47 @@ const App = {
       </div>
     </div>`;
 
-      // 盘口变化详情
-      html += `
+      // 各公司赔率对比
+      if (h.companies && h.companies.length > 0) {
+        html += `
     <div class="odds-section">
-      <div class="section-title">📈 盘口变化</div>
+      <div class="section-title">📈 亚盘赔率（${h.companies.length}家公司中位）</div>
       <table class="odds-table">
-        <tr><th></th><th>初盘</th><th>即时盘</th><th>变化</th></tr>
+        <tr><th>公司</th><th>主水</th><th>盘口</th><th>客水</th></tr>
+        ${h.companies.map(c => `
         <tr>
-          <td class="company-name">亚盘(让球)</td>
-          <td>${this._fmtHcap(h.initHandicap)}</td>
-          <td>${this._fmtHcap(h.liveHandicap)}</td>
-          <td style="color:${h.change > 0 ? 'var(--green)' : h.change < 0 ? 'var(--red)' : ''}">${h.change > 0 ? '↑升' : h.change < 0 ? '↓降' : '→平'}</td>
-        </tr>
-        ${h.homeWater !== null ? `
-        <tr>
-          <td class="company-name">主队水位</td>
-          <td>-</td>
-          <td>${h.homeWater}</td>
-          <td>-</td>
-        </tr>` : ''}
-        ${h.awayWater !== null ? `
-        <tr>
-          <td class="company-name">客队水位</td>
-          <td>-</td>
-          <td>${h.awayWater}</td>
-          <td>-</td>
-        </tr>` : ''}
-        <tr>
-          <td class="company-name">大小球</td>
-          <td>${ou.initOverUnder !== null ? ou.initOverUnder + '球' : '-'}</td>
-          <td>${ou.liveOverUnder !== null ? ou.liveOverUnder + '球' : '-'}</td>
-          <td style="color:${ou.change > 0 ? 'var(--orange)' : ou.change < 0 ? 'var(--blue)' : ''}">${ou.change > 0 ? '↑升' : ou.change < 0 ? '↓降' : '→平'}</td>
-        </tr>
+          <td class="company-name">${c.name}</td>
+          <td>${c.homeWater}</td>
+          <td>${this._fmtHcap(c.handicap)}</td>
+          <td>${c.awayWater}</td>
+        </tr>`).join('')}
       </table>
+      <div style="padding:8px 16px;font-size:12px;color:var(--gray-500);">
+        中位盘口：${this._fmtHcap(h.handicap)} | 中位主水：${h.homeWater} | 中位客水：${h.awayWater}
+        ${h.consensus === 'high' ? ' ✅ 公司一致' : h.consensus === 'medium' ? ' ⚠️ 略有分歧' : ' ❌ 分歧较大'}
+      </div>
     </div>`;
+      }
+
+      if (ou.companies && ou.companies.length > 0) {
+        html += `
+    <div class="odds-section">
+      <div class="section-title">⚽ 大小球赔率（${ou.companies.length}家公司中位）</div>
+      <table class="odds-table">
+        <tr><th>公司</th><th>大球</th><th>盘口</th><th>小球</th></tr>
+        ${ou.companies.map(c => `
+        <tr>
+          <td class="company-name">${c.name}</td>
+          <td>${c.overWater}</td>
+          <td>${c.total}球</td>
+          <td>${c.underWater}</td>
+        </tr>`).join('')}
+      </table>
+      <div style="padding:8px 16px;font-size:12px;color:var(--gray-500);">
+        中位大小球：${ou.total}球 | 大球水：${ou.overWater} | 小球水：${ou.underWater}
+      </div>
+    </div>`;
+      }
 
       // 分析理由
       if (h.reasons && h.reasons.length > 0) {
@@ -356,44 +363,6 @@ const App = {
       </ul>
     </div>`;
       }
-    }
-
-    // 完整赔率表
-    const asianOdds = match.odds ? (match.odds.asian || []) : [];
-    const ouOdds = match.odds ? (match.odds.overUnder || []) : [];
-    
-    if (asianOdds.length > 0) {
-      html += `
-    <div class="odds-section">
-      <div class="section-title">🏷️ 亚盘赔率（各公司）</div>
-      <table class="odds-table">
-        <tr><th>公司</th><th>主水</th><th>盘口</th><th>客水</th></tr>
-        ${asianOdds.map(o => `
-        <tr>
-          <td class="company-name">${o.companyName}</td>
-          <td>${o.homeWater}</td>
-          <td>${this._fmtHcap(o.handicap)}</td>
-          <td>${o.awayWater}</td>
-        </tr>`).join('')}
-      </table>
-    </div>`;
-    }
-
-    if (ouOdds.length > 0) {
-      html += `
-    <div class="odds-section">
-      <div class="section-title">⚽ 大小球赔率</div>
-      <table class="odds-table">
-        <tr><th>公司</th><th>大球</th><th>盘口</th><th>小球</th></tr>
-        ${ouOdds.map(o => `
-        <tr>
-          <td class="company-name">${o.companyName}</td>
-          <td>${o.overWater}</td>
-          <td>${o.total}球</td>
-          <td>${o.underWater}</td>
-        </tr>`).join('')}
-      </table>
-    </div>`;
     }
 
     // 数据来源

@@ -2,7 +2,7 @@
   "cupId": 75,
   "cupName": "2026世界杯",
   "cupNameEN": "FIFA World Cup 2026",
-  "updateTime": "2026-06-25 14:09:47",
+  "updateTime": "2026-06-25 22:23:51",
   "teamCount": 103,
   "matchCount": 104,
   "teams": {
@@ -643,10 +643,7 @@
       "awayFlag": "images/1kd59km201y.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -1.5,
-      "liveHandicap": -0.75,
-      "initOverUnder": "2.5/3",
-      "liveOverUnder": 1.0,
+      "displayHandicap": -1.5,
       "odds": {
         "asian": [
           {
@@ -1009,10 +1006,7 @@
       "awayFlag": "images/1kd9x52q0c0.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -1.0,
-      "liveHandicap": -0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": -1.0,
       "odds": {
         "asian": [
           {
@@ -1382,10 +1376,7 @@
       "awayFlag": "images/1kd9x92yqm14.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -1.0,
-      "liveHandicap": -0.5,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": -1.0,
       "odds": {
         "asian": [
           {
@@ -1748,10 +1739,7 @@
       "awayFlag": "images/1kv4yfxjmym.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": 0.25,
-      "liveHandicap": 0.0,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.25,
       "odds": {
         "asian": [
           {
@@ -2121,10 +2109,7 @@
       "awayFlag": "images/1kd9x2rd7q7.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": 0.25,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 0.25,
       "odds": {
         "asian": [
           {
@@ -2494,10 +2479,7 @@
       "awayFlag": "images/1kd9x10rpm2a.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": 0.0,
-      "liveHandicap": 0.0,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.0,
       "odds": {
         "asian": [
           {
@@ -2867,10 +2849,7 @@
       "awayFlag": "images/1kda1tadyh9.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -0.75,
-      "liveHandicap": -0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": -0.75,
       "odds": {
         "asian": [
           {
@@ -3240,10 +3219,7 @@
       "awayFlag": "images/1kv4ykpmfv2y.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": 1.0,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 1.0,
       "odds": {
         "asian": [
           {
@@ -3606,10 +3582,7 @@
       "awayFlag": "images/1kd9tvn8rc1h.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -0.5,
-      "liveHandicap": -0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": -0.5,
       "odds": {
         "asian": [
           {
@@ -3979,10 +3952,7 @@
       "awayFlag": "images/1kd9trgscek.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -0.75,
-      "liveHandicap": -0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": -0.75,
       "odds": {
         "asian": [
           {
@@ -4352,10 +4322,7 @@
       "awayFlag": "images/1kd9t4tft00.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": 0.25,
-      "liveHandicap": 0.0,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 0.25,
       "odds": {
         "asian": [
           {
@@ -4725,10 +4692,7 @@
       "awayFlag": "images/1kd9szmt7c1b.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -1.75,
-      "liveHandicap": -0.75,
-      "initOverUnder": 3.0,
-      "liveOverUnder": "1/1.5",
+      "displayHandicap": -1.75,
       "odds": {
         "asian": [
           {
@@ -5091,10 +5055,7 @@
       "awayFlag": "images/1kda2e0fjvt.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": 0.5,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 0.5,
       "odds": {
         "asian": [
           {
@@ -5464,10 +5425,7 @@
       "awayFlag": "images/1kda293ej631.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -2.0,
-      "liveHandicap": -1.0,
-      "initOverUnder": 3.0,
-      "liveOverUnder": "1/1.5",
+      "displayHandicap": -2.0,
       "odds": {
         "asian": [
           {
@@ -5830,10 +5788,7 @@
       "awayFlag": "images/1kda27jxznk.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": 0.25,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 0.25,
       "odds": {
         "asian": [
           {
@@ -6203,10 +6158,7 @@
       "awayFlag": "images/1kda23vp7420.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -0.25,
-      "liveHandicap": -0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": 1.0,
+      "displayHandicap": -0.25,
       "odds": {
         "asian": [
           {
@@ -6576,10 +6528,7 @@
       "awayFlag": "images/1kda1wqsej1c.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -0.25,
-      "liveHandicap": 0.0,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": -0.25,
       "odds": {
         "asian": [
           {
@@ -6949,10 +6898,7 @@
       "awayFlag": "images/1kda1y9gfy1d.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -2.0,
-      "liveHandicap": -1.0,
-      "initOverUnder": 3.0,
-      "liveOverUnder": "1/1.5",
+      "displayHandicap": -2.0,
       "odds": {
         "asian": [
           {
@@ -7315,10 +7261,7 @@
       "awayFlag": "images/1kd9te475h31.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": -0.75,
-      "liveHandicap": -0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": -0.75,
       "odds": {
         "asian": [
           {
@@ -7681,10 +7624,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -7708,10 +7648,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -7735,10 +7672,7 @@
       "awayFlag": "images/1kd4ndnmtw17.png",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -7762,10 +7696,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -7789,10 +7720,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -7816,10 +7744,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -7843,10 +7768,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -7870,10 +7792,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -7897,10 +7816,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -7924,10 +7840,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -7951,10 +7864,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -7978,10 +7888,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8005,10 +7912,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8032,10 +7936,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8059,10 +7960,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8086,10 +7984,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8113,10 +8008,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8140,10 +8032,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8167,10 +8056,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8194,10 +8080,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8221,10 +8104,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8248,10 +8128,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8275,10 +8152,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8302,10 +8176,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8329,10 +8200,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8356,10 +8224,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8383,10 +8248,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8410,10 +8272,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8437,10 +8296,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8464,10 +8320,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8491,10 +8344,7 @@
       "awayFlag": "",
       "score": null,
       "halfScore": null,
-      "initHandicap": "",
-      "liveHandicap": "",
-      "initOverUnder": "",
-      "liveOverUnder": "",
+      "displayHandicap": "",
       "odds": {
         "asian": [],
         "overUnder": [],
@@ -8518,10 +8368,7 @@
       "awayFlag": "images/1kd9t7mybnb.png",
       "score": "1-0",
       "halfScore": "0-0",
-      "initHandicap": -0.25,
-      "liveHandicap": 0.0,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": -0.25,
       "odds": {
         "asian": [
           {
@@ -8891,10 +8738,7 @@
       "awayFlag": "images/1kd9t4bkpnb.png",
       "score": "0-3",
       "halfScore": "0-0",
-      "initHandicap": -0.5,
-      "liveHandicap": -0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": 1.0,
+      "displayHandicap": -0.5,
       "odds": {
         "asian": [
           {
@@ -9264,10 +9108,7 @@
       "awayFlag": "images/1kd9wy18gb2t.png",
       "score": "0-3",
       "halfScore": "0-2",
-      "initHandicap": -1.5,
-      "liveHandicap": -0.5,
-      "initOverUnder": "2.5/3",
-      "liveOverUnder": 1.0,
+      "displayHandicap": -1.5,
       "odds": {
         "asian": [
           {
@@ -9644,10 +9485,7 @@
       "awayFlag": "images/1kd9wz49sw2b.png",
       "score": "4-2",
       "halfScore": "2-2",
-      "initHandicap": 1.5,
-      "liveHandicap": 0.75,
-      "initOverUnder": "2.5/3",
-      "liveOverUnder": 1.0,
+      "displayHandicap": 1.5,
       "odds": {
         "asian": [
           {
@@ -10010,10 +9848,7 @@
       "awayFlag": "images/1kd9te475h31.png",
       "score": "2-1",
       "halfScore": "0-0",
-      "initHandicap": 0.5,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.5,
       "odds": {
         "asian": [
           {
@@ -10383,10 +10218,7 @@
       "awayFlag": "images/1kd9tjqr2b13.png",
       "score": "3-1",
       "halfScore": "2-1",
-      "initHandicap": 0.5,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 0.5,
       "odds": {
         "asian": [
           {
@@ -10756,10 +10588,7 @@
       "awayFlag": "images/1kd4n7rc8r1p.png",
       "score": "1-0",
       "halfScore": "0-0",
-      "initHandicap": 1.0,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 1.0,
       "odds": {
         "asian": [
           {
@@ -11129,10 +10958,7 @@
       "awayFlag": "images/1kda2amc8t28.png",
       "score": "0-1",
       "halfScore": "0-0",
-      "initHandicap": -1.25,
-      "liveHandicap": -0.5,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": -1.25,
       "odds": {
         "asian": [
           {
@@ -11502,10 +11328,7 @@
       "awayFlag": "images/1kda2e0fjvt.png",
       "score": "0-0",
       "halfScore": "0-0",
-      "initHandicap": 1.25,
-      "liveHandicap": 0.5,
-      "initOverUnder": "2.5/3",
-      "liveOverUnder": 1.0,
+      "displayHandicap": 1.25,
       "odds": {
         "asian": [
           {
@@ -11868,10 +11691,7 @@
       "awayFlag": "images/1kda27jxznk.png",
       "score": "5-0",
       "halfScore": "3-0",
-      "initHandicap": 1.75,
-      "liveHandicap": 0.75,
-      "initOverUnder": 3.0,
-      "liveOverUnder": "1/1.5",
+      "displayHandicap": 1.75,
       "odds": {
         "asian": [
           {
@@ -12234,10 +12054,7 @@
       "awayFlag": "images/1kd4yh55v51h.png",
       "score": "1-2",
       "halfScore": "1-0",
-      "initHandicap": -0.75,
-      "liveHandicap": -0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": -0.75,
       "odds": {
         "asian": [
           {
@@ -12607,10 +12424,7 @@
       "awayFlag": "images/1kd59fqdks1t.png",
       "score": "3-2",
       "halfScore": "1-0",
-      "initHandicap": 0.25,
-      "liveHandicap": 0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.25,
       "odds": {
         "asian": [
           {
@@ -12980,10 +12794,7 @@
       "awayFlag": "images/1kv4ykpmfv2y.png",
       "score": "3-0",
       "halfScore": "1-0",
-      "initHandicap": 2.0,
-      "liveHandicap": 1.0,
-      "initOverUnder": 3.0,
-      "liveOverUnder": "1/1.5",
+      "displayHandicap": 2.0,
       "odds": {
         "asian": [
           {
@@ -13346,10 +13157,7 @@
       "awayFlag": "images/1kda1wqsej1c.png",
       "score": "2-0",
       "halfScore": "1-0",
-      "initHandicap": 0.75,
-      "liveHandicap": 0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.75,
       "odds": {
         "asian": [
           {
@@ -13719,10 +13527,7 @@
       "awayFlag": "images/1kd9t2vfd01a.png",
       "score": "1-3",
       "halfScore": "1-0",
-      "initHandicap": -0.75,
-      "liveHandicap": -0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": -0.75,
       "odds": {
         "asian": [
           {
@@ -14092,10 +13897,7 @@
       "awayFlag": "images/1kd9tt61s01t.png",
       "score": "2-2",
       "halfScore": "2-1",
-      "initHandicap": 1.0,
-      "liveHandicap": 0.5,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 1.0,
       "odds": {
         "asian": [
           {
@@ -14465,10 +14267,7 @@
       "awayFlag": "images/1kd9t4tft00.png",
       "score": "0-0",
       "halfScore": "0-0",
-      "initHandicap": 1.0,
-      "liveHandicap": 0.5,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 1.0,
       "odds": {
         "asian": [
           {
@@ -14838,10 +14637,7 @@
       "awayFlag": "images/1kd9tvn8rc1h.png",
       "score": "4-0",
       "halfScore": "3-0",
-      "initHandicap": 2.25,
-      "liveHandicap": 1.0,
-      "initOverUnder": 3.0,
-      "liveOverUnder": "1/1.5",
+      "displayHandicap": 2.25,
       "odds": {
         "asian": [
           {
@@ -15204,10 +15000,7 @@
       "awayFlag": "images/1kd9xadskf2v.png",
       "score": "0-4",
       "halfScore": "0-2",
-      "initHandicap": -0.5,
-      "liveHandicap": -0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": -0.5,
       "odds": {
         "asian": [
           {
@@ -15577,10 +15370,7 @@
       "awayFlag": "images/1kd9x6zjk8t.png",
       "score": "0-0",
       "halfScore": "0-0",
-      "initHandicap": 1.5,
-      "liveHandicap": 0.75,
-      "initOverUnder": "2.5/3",
-      "liveOverUnder": 1.0,
+      "displayHandicap": 1.5,
       "odds": {
         "asian": [
           {
@@ -15943,10 +15733,7 @@
       "awayFlag": "images/1kd59km201y.png",
       "score": "2-1",
       "halfScore": "0-1",
-      "initHandicap": 0.75,
-      "liveHandicap": 0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.75,
       "odds": {
         "asian": [
           {
@@ -16316,10 +16103,7 @@
       "awayFlag": "images/1kv4yfxjmym.png",
       "score": "5-1",
       "halfScore": "2-0",
-      "initHandicap": 0.5,
-      "liveHandicap": 0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.5,
       "odds": {
         "asian": [
           {
@@ -16689,10 +16473,7 @@
       "awayFlag": "images/1kd9x06mhg1c.png",
       "score": "0-1",
       "halfScore": "0-1",
-      "initHandicap": 0.25,
-      "liveHandicap": 0.0,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 0.25,
       "odds": {
         "asian": [
           {
@@ -17062,10 +16843,7 @@
       "awayFlag": "images/1kd9wz49sw2b.png",
       "score": "3-0",
       "halfScore": "3-0",
-      "initHandicap": 3.25,
-      "liveHandicap": 1.5,
-      "initOverUnder": 4.0,
-      "liveOverUnder": "1.5/2",
+      "displayHandicap": 3.25,
       "odds": {
         "asian": [
           {
@@ -17435,10 +17213,7 @@
       "awayFlag": "images/1kd4ndnmtw17.png",
       "score": "0-1",
       "halfScore": "0-1",
-      "initHandicap": -0.25,
-      "liveHandicap": -0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": -0.25,
       "odds": {
         "asian": [
           {
@@ -17808,10 +17583,7 @@
       "awayFlag": "images/1kd9x2rd7q7.png",
       "score": "2-0",
       "halfScore": "2-0",
-      "initHandicap": 0.5,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.5,
       "odds": {
         "asian": [
           {
@@ -18181,10 +17953,7 @@
       "awayFlag": "images/1kd9t7mybnb.png",
       "score": "1-0",
       "halfScore": "0-0",
-      "initHandicap": 0.5,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 0.5,
       "odds": {
         "asian": [
           {
@@ -18554,10 +18323,7 @@
       "awayFlag": "images/1kd9tjqr2b13.png",
       "score": "6-0",
       "halfScore": "3-0",
-      "initHandicap": 0.75,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 0.75,
       "odds": {
         "asian": [
           {
@@ -18927,10 +18693,7 @@
       "awayFlag": "images/1krg0gedq426.png",
       "score": "4-1",
       "halfScore": "0-0",
-      "initHandicap": 0.75,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.75,
       "odds": {
         "asian": [
           {
@@ -19300,10 +19063,7 @@
       "awayFlag": "images/1kd9sw00w6d.png",
       "score": "1-1",
       "halfScore": "1-0",
-      "initHandicap": 0.25,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 0.25,
       "odds": {
         "asian": [
           {
@@ -19673,10 +19433,7 @@
       "awayFlag": "images/1kda25g1132q.png",
       "score": "1-3",
       "halfScore": "0-1",
-      "initHandicap": -1.25,
-      "liveHandicap": -0.5,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": -1.25,
       "odds": {
         "asian": [
           {
@@ -20081,10 +19838,7 @@
       "awayFlag": "images/1kda2btvdd16.png",
       "score": "1-0",
       "halfScore": "0-0",
-      "initHandicap": 0.5,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.5,
       "odds": {
         "asian": [
           {
@@ -20489,10 +20243,7 @@
       "awayFlag": "images/1kda2amc8t28.png",
       "score": "4-2",
       "halfScore": "2-2",
-      "initHandicap": 0.75,
-      "liveHandicap": 0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.75,
       "odds": {
         "asian": [
           {
@@ -20897,10 +20648,7 @@
       "awayFlag": "images/1kd4n7rc8r1p.png",
       "score": "1-1",
       "halfScore": "1-1",
-      "initHandicap": 1.5,
-      "liveHandicap": 0.75,
-      "initOverUnder": 3.0,
-      "liveOverUnder": "1/1.5",
+      "displayHandicap": 1.5,
       "odds": {
         "asian": [
           {
@@ -21298,10 +21046,7 @@
       "awayFlag": "images/1kda1znxnf0.png",
       "score": "3-1",
       "halfScore": "1-0",
-      "initHandicap": 1.5,
-      "liveHandicap": 0.75,
-      "initOverUnder": "2.5/3",
-      "liveOverUnder": "1/1.5",
+      "displayHandicap": 1.5,
       "odds": {
         "asian": [
           {
@@ -21706,10 +21451,7 @@
       "awayFlag": "images/1kd4yh55v51h.png",
       "score": "3-0",
       "halfScore": "1-0",
-      "initHandicap": 1.25,
-      "liveHandicap": 0.5,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 1.25,
       "odds": {
         "asian": [
           {
@@ -22114,10 +21856,7 @@
       "awayFlag": "images/1kda1rwfg32y.png",
       "score": "1-4",
       "halfScore": "1-2",
-      "initHandicap": -1.75,
-      "liveHandicap": -0.75,
-      "initOverUnder": "2.5/3",
-      "liveOverUnder": "1/1.5",
+      "displayHandicap": -1.75,
       "odds": {
         "asian": [
           {
@@ -22508,10 +22247,7 @@
       "awayFlag": "images/1kd59fqdks1t.png",
       "score": "3-1",
       "halfScore": "0-0",
-      "initHandicap": 1.25,
-      "liveHandicap": 0.5,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 1.25,
       "odds": {
         "asian": [
           {
@@ -22916,10 +22652,7 @@
       "awayFlag": "images/1kd9t67nxv21.png",
       "score": "2-2",
       "halfScore": "1-1",
-      "initHandicap": 0.75,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.75,
       "odds": {
         "asian": [
           {
@@ -23324,10 +23057,7 @@
       "awayFlag": "images/1kd9twt0q412.png",
       "score": "1-1",
       "halfScore": "1-0",
-      "initHandicap": -1.0,
-      "liveHandicap": -0.5,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": -1.0,
       "odds": {
         "asian": [
           {
@@ -23732,10 +23462,7 @@
       "awayFlag": "images/1kd9t2vfd01a.png",
       "score": "1-1",
       "halfScore": "0-1",
-      "initHandicap": 0.75,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2.5/3",
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.75,
       "odds": {
         "asian": [
           {
@@ -24140,10 +23867,7 @@
       "awayFlag": "images/1kd9tt61s01t.png",
       "score": "0-0",
       "halfScore": "0-0",
-      "initHandicap": 2.75,
-      "liveHandicap": 1.25,
-      "initOverUnder": 3.5,
-      "liveOverUnder": 1.5,
+      "displayHandicap": 2.75,
       "odds": {
         "asian": [
           {
@@ -24541,10 +24265,7 @@
       "awayFlag": "images/1kd4y40jnv1v.png",
       "score": "5-1",
       "halfScore": "2-1",
-      "initHandicap": 0.5,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 0.5,
       "odds": {
         "asian": [
           {
@@ -24942,10 +24663,7 @@
       "awayFlag": "images/1kd9x5x0yg1h.png",
       "score": "1-0",
       "halfScore": "0-0",
-      "initHandicap": -0.25,
-      "liveHandicap": 0.0,
-      "initOverUnder": 2.0,
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": -0.25,
       "odds": {
         "asian": [
           {
@@ -25350,10 +25068,7 @@
       "awayFlag": "images/1kd9xadskf2v.png",
       "score": "2-2",
       "halfScore": "0-0",
-      "initHandicap": 0.5,
-      "liveHandicap": 0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.5,
       "odds": {
         "asian": [
           {
@@ -25758,10 +25473,7 @@
       "awayFlag": "images/1kd9x6zjk8t.png",
       "score": "7-1",
       "halfScore": "3-1",
-      "initHandicap": 3.75,
-      "liveHandicap": 1.75,
-      "initOverUnder": 4.5,
-      "liveOverUnder": 2.0,
+      "displayHandicap": 3.75,
       "odds": {
         "asian": [
           {
@@ -26159,10 +25871,7 @@
       "awayFlag": "images/1kv4yjemr72v.png",
       "score": "2-0",
       "halfScore": "1-0",
-      "initHandicap": -0.75,
-      "liveHandicap": -0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": 1.0,
+      "displayHandicap": -0.75,
       "odds": {
         "asian": [
           {
@@ -26560,10 +26269,7 @@
       "awayFlag": "images/1kd9tmd68p1q.png",
       "score": "0-1",
       "halfScore": "0-1",
-      "initHandicap": -1.25,
-      "liveHandicap": -0.5,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": -1.25,
       "odds": {
         "asian": [
           {
@@ -26968,10 +26674,7 @@
       "awayFlag": "images/1kd4ndnmtw17.png",
       "score": "1-1",
       "halfScore": "1-1",
-      "initHandicap": 0.75,
-      "liveHandicap": 0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.75,
       "odds": {
         "asian": [
           {
@@ -27376,10 +27079,7 @@
       "awayFlag": "images/1kd9tcnft7h.png",
       "score": "1-1",
       "halfScore": "0-1",
-      "initHandicap": -1.75,
-      "liveHandicap": -0.75,
-      "initOverUnder": "2.5/3",
-      "liveOverUnder": "1/1.5",
+      "displayHandicap": -1.75,
       "odds": {
         "asian": [
           {
@@ -27777,10 +27477,7 @@
       "awayFlag": "images/1kd9x06mhg1c.png",
       "score": "4-1",
       "halfScore": "3-0",
-      "initHandicap": 0.5,
-      "liveHandicap": 0.25,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.5,
       "odds": {
         "asian": [
           {
@@ -28185,10 +27882,7 @@
       "awayFlag": "images/1krg0gedq426.png",
       "score": "1-1",
       "halfScore": "0-1",
-      "initHandicap": 0.5,
-      "liveHandicap": 0.25,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": 1.0,
+      "displayHandicap": 0.5,
       "odds": {
         "asian": [
           {
@@ -28586,10 +28280,7 @@
       "awayFlag": "images/1kv4ygwr5228.png",
       "score": "2-1",
       "halfScore": "0-0",
-      "initHandicap": 0.0,
-      "liveHandicap": 0.0,
-      "initOverUnder": "2/2.5",
-      "liveOverUnder": "0.5/1",
+      "displayHandicap": 0.0,
       "odds": {
         "asian": [
           {
@@ -28987,10 +28678,7 @@
       "awayFlag": "images/1kd9sw00w6d.png",
       "score": "2-0",
       "halfScore": "1-0",
-      "initHandicap": 1.0,
-      "liveHandicap": 0.5,
-      "initOverUnder": 2.5,
-      "liveOverUnder": 1.0,
+      "displayHandicap": 1.0,
       "odds": {
         "asian": [
           {
