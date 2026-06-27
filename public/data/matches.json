@@ -2,7 +2,7 @@
   "cupId": 75,
   "cupName": "2026世界杯",
   "cupNameEN": "FIFA World Cup 2026",
-  "updateTime": "2026-06-27 13:17:13",
+  "updateTime": "2026-06-27 17:01:40",
   "teamCount": 90,
   "matchCount": 104,
   "teams": {
@@ -4267,6 +4267,13 @@
             "homeWater": 0.93,
             "handicap": -0.5,
             "awayWater": 0.93
+          },
+          {
+            "companyId": 9,
+            "companyName": "立博",
+            "homeWater": 0.75,
+            "handicap": -0.5,
+            "awayWater": 0.87
           },
           {
             "companyId": 12,
