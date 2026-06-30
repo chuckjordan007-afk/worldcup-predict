@@ -2,7 +2,7 @@
   "cupId": 75,
   "cupName": "2026世界杯",
   "cupNameEN": "FIFA World Cup 2026",
-  "updateTime": "2026-06-30 10:50:19",
+  "updateTime": "2026-06-30 14:02:52",
   "teamCount": 76,
   "matchCount": 104,
   "teams": {
@@ -4918,6 +4918,13 @@
             "awayWater": 0.8
           },
           {
+            "companyId": 12,
+            "companyName": "利胜",
+            "homeWater": 0.83,
+            "handicap": -0.75,
+            "awayWater": 1.02
+          },
+          {
             "companyId": 14,
             "companyName": "伟德",
             "homeWater": 0.95,
@@ -5002,6 +5009,13 @@
             "overWater": 1.1,
             "total": 2.5,
             "underWater": 0.67
+          },
+          {
+            "companyId": 12,
+            "companyName": "利胜",
+            "overWater": 0.99,
+            "total": 2.25,
+            "underWater": 0.85
           },
           {
             "companyId": 14,
@@ -5109,6 +5123,13 @@
             "win": 4.6,
             "draw": 3.5,
             "lose": 1.8
+          },
+          {
+            "companyId": 90,
+            "companyName": "利胜*",
+            "win": 4.7,
+            "draw": 3.5,
+            "lose": 1.78
           },
           {
             "companyId": 104,
