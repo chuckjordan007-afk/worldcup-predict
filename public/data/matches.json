@@ -2,7 +2,7 @@
   "cupId": 75,
   "cupName": "2026世界杯",
   "cupNameEN": "FIFA World Cup 2026",
-  "updateTime": "2026-07-02 02:36:30",
+  "updateTime": "2026-07-02 07:24:29",
   "teamCount": 70,
   "matchCount": 104,
   "teams": {
@@ -4035,6 +4035,13 @@
             "lose": 2.25
           },
           {
+            "companyId": 432,
+            "companyName": "易胜*",
+            "win": 3.25,
+            "draw": 2.75,
+            "lose": 2.17
+          },
+          {
             "companyId": 474,
             "companyName": "盈*",
             "win": 3.19,
@@ -4120,24 +4127,199 @@
       "awayFlag": "images/1kd9szmt7c1b.png",
       "score": null,
       "halfScore": null,
-      "displayHandicap": "",
+      "displayHandicap": 0.0,
       "odds": {
         "asian": [
+          {
+            "companyId": 1,
+            "companyName": "澳门",
+            "homeWater": 0.89,
+            "handicap": 0.0,
+            "awayWater": 0.95
+          },
+          {
+            "companyId": 3,
+            "companyName": "Crown",
+            "homeWater": 0.92,
+            "handicap": 0.0,
+            "awayWater": 0.9
+          },
           {
             "companyId": 8,
             "companyName": "36",
             "homeWater": 0.85,
             "handicap": 0.0,
             "awayWater": 1.0
+          },
+          {
+            "companyId": 9,
+            "companyName": "立博",
+            "homeWater": 0.78,
+            "handicap": 0.0,
+            "awayWater": 0.87
+          },
+          {
+            "companyId": 12,
+            "companyName": "利胜",
+            "homeWater": 0.87,
+            "handicap": 0.0,
+            "awayWater": 0.99
+          },
+          {
+            "companyId": 14,
+            "companyName": "伟德",
+            "homeWater": 0.9,
+            "handicap": 0.0,
+            "awayWater": 0.86
+          },
+          {
+            "companyId": 17,
+            "companyName": "易胜博",
+            "homeWater": 0.9,
+            "handicap": 0.0,
+            "awayWater": 0.94
+          },
+          {
+            "companyId": 19,
+            "companyName": "明升",
+            "homeWater": 0.83,
+            "handicap": 0.0,
+            "awayWater": 0.9
+          },
+          {
+            "companyId": 24,
+            "companyName": "12B",
+            "homeWater": 0.88,
+            "handicap": 0.0,
+            "awayWater": 0.96
+          },
+          {
+            "companyId": 31,
+            "companyName": "YSB",
+            "homeWater": 1.0,
+            "handicap": 0.0,
+            "awayWater": 0.84
+          },
+          {
+            "companyId": 35,
+            "companyName": "盈丰",
+            "homeWater": 0.94,
+            "handicap": 0.0,
+            "awayWater": 0.92
+          },
+          {
+            "companyId": 42,
+            "companyName": "18B",
+            "homeWater": 0.81,
+            "handicap": 0.0,
+            "awayWater": 0.96
           }
         ],
         "overUnder": [
+          {
+            "companyId": 1,
+            "companyName": "澳门",
+            "overWater": 0.97,
+            "total": 2.75,
+            "underWater": 0.83
+          },
+          {
+            "companyId": 3,
+            "companyName": "Crown",
+            "overWater": 0.97,
+            "total": 2.75,
+            "underWater": 0.83
+          },
+          {
+            "companyId": 4,
+            "companyName": "立博(大小)",
+            "overWater": 0.83,
+            "total": 2.5,
+            "underWater": 0.91
+          },
           {
             "companyId": 8,
             "companyName": "36",
             "overWater": 0.93,
             "total": 2.75,
             "underWater": 0.93
+          },
+          {
+            "companyId": 9,
+            "companyName": "立博",
+            "overWater": 0.8,
+            "total": 2.5,
+            "underWater": 0.95
+          },
+          {
+            "companyId": 12,
+            "companyName": "利胜",
+            "overWater": 1.0,
+            "total": 2.75,
+            "underWater": 0.84
+          },
+          {
+            "companyId": 14,
+            "companyName": "伟德",
+            "overWater": 0.98,
+            "total": 2.75,
+            "underWater": 0.85
+          },
+          {
+            "companyId": 17,
+            "companyName": "易胜博",
+            "overWater": 0.9,
+            "total": 2.5,
+            "underWater": 0.92
+          },
+          {
+            "companyId": 19,
+            "companyName": "明升",
+            "overWater": 0.75,
+            "total": 2.5,
+            "underWater": 1.05
+          },
+          {
+            "companyId": 22,
+            "companyName": "10B",
+            "overWater": 0.9,
+            "total": 2.75,
+            "underWater": 0.87
+          },
+          {
+            "companyId": 24,
+            "companyName": "12B",
+            "overWater": 0.9,
+            "total": 2.5,
+            "underWater": 0.92
+          },
+          {
+            "companyId": 31,
+            "companyName": "YSB",
+            "overWater": 0.76,
+            "total": 2.5,
+            "underWater": 1.06
+          },
+          {
+            "companyId": 35,
+            "companyName": "盈丰",
+            "overWater": 0.99,
+            "total": 2.75,
+            "underWater": 0.85
+          },
+          {
+            "companyId": 42,
+            "companyName": "18B",
+            "overWater": 0.92,
+            "total": 2.75,
+            "underWater": 0.84
+          },
+          {
+            "companyId": 49,
+            "companyName": "平博",
+            "overWater": 0.71,
+            "total": 2.5,
+            "underWater": 1.0
           }
         ],
         "euro1x2": [
@@ -4149,11 +4331,144 @@
             "lose": 2.65
           },
           {
+            "companyId": 18,
+            "companyName": "12*",
+            "win": 2.67,
+            "draw": 3.35,
+            "lose": 2.59
+          },
+          {
+            "companyId": 80,
+            "companyName": "澳*",
+            "win": 2.4,
+            "draw": 3.5,
+            "lose": 2.45
+          },
+          {
+            "companyId": 81,
+            "companyName": "伟*",
+            "win": 2.6,
+            "draw": 3.5,
+            "lose": 2.55
+          },
+          {
+            "companyId": 82,
+            "companyName": "永*",
+            "win": 2.5,
+            "draw": 3.0,
+            "lose": 2.6
+          },
+          {
+            "companyId": 88,
+            "companyName": "Cora*",
+            "win": 2.5,
+            "draw": 3.1,
+            "lose": 2.5
+          },
+          {
+            "companyId": 90,
+            "companyName": "利胜*",
+            "win": 2.6,
+            "draw": 3.5,
+            "lose": 2.6
+          },
+          {
+            "companyId": 104,
+            "companyName": "Interwet*",
+            "win": 2.55,
+            "draw": 3.55,
+            "lose": 2.65
+          },
+          {
+            "companyId": 115,
+            "companyName": "立博*",
+            "win": 2.63,
+            "draw": 3.25,
+            "lose": 2.6
+          },
+          {
+            "companyId": 173,
+            "companyName": "bet-at-h*",
+            "win": 2.55,
+            "draw": 3.6,
+            "lose": 2.65
+          },
+          {
+            "companyId": 177,
+            "companyName": "Pinna*",
+            "win": 2.71,
+            "draw": 3.27,
+            "lose": 2.6
+          },
+          {
+            "companyId": 255,
+            "companyName": "Bwi*",
+            "win": 2.65,
+            "draw": 3.4,
+            "lose": 2.6
+          },
+          {
             "companyId": 281,
             "companyName": "36*",
             "win": 2.5,
             "draw": 3.5,
             "lose": 2.63
+          },
+          {
+            "companyId": 422,
+            "companyName": "易胜博*",
+            "win": 2.65,
+            "draw": 3.4,
+            "lose": 2.6
+          },
+          {
+            "companyId": 432,
+            "companyName": "易胜*",
+            "win": 2.73,
+            "draw": 3.05,
+            "lose": 2.27
+          },
+          {
+            "companyId": 474,
+            "companyName": "盈*",
+            "win": 2.61,
+            "draw": 3.39,
+            "lose": 2.61
+          },
+          {
+            "companyId": 517,
+            "companyName": "明*",
+            "win": 2.58,
+            "draw": 3.35,
+            "lose": 2.66
+          },
+          {
+            "companyId": 545,
+            "companyName": "Crow*",
+            "win": 2.57,
+            "draw": 3.75,
+            "lose": 2.54
+          },
+          {
+            "companyId": 649,
+            "companyName": "IBC*",
+            "win": 2.59,
+            "draw": 3.35,
+            "lose": 2.67
+          },
+          {
+            "companyId": 659,
+            "companyName": "盈*",
+            "win": 2.53,
+            "draw": 3.44,
+            "lose": 2.56
+          },
+          {
+            "companyId": 976,
+            "companyName": "18B*",
+            "win": 2.5,
+            "draw": 3.5,
+            "lose": 2.6
           }
         ]
       }
